@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                             cameraManager.setTorchMode(cameraId,false);
                         }
                         state = false;
-bulbOff.setText("OFF");
+                        bulbOff.setText("OFF");
                         bulbImage.setImageResource(R.drawable.off);
                         switch_off.setImageResource(R.drawable.off_img);
 
