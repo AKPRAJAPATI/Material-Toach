@@ -19,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
             }
-        },3000);
+        },2000); //I am changes 3sec to 2sec for splash screen !.
         
     }
 }
